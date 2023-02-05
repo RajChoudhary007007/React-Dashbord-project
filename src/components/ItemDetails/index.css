@@ -1,0 +1,29 @@
+.details-main-container {
+  list-style-type: none;
+  width: 100%;
+}
+.details-response-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.item {
+  color: white;
+  font-size: 8px;
+  font-weight: 400;
+  font-family: roboto;
+}
+@media screen and (min-width: 768px) {
+  .item {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+.hr-line {
+  height: 0.25px solid rgb(88, 78, 78);
+}
